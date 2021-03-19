@@ -1,0 +1,323 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+ul {
+  padding: 0px !important;
+}
+.menu-principal {
+  width: 100%;
+  background-color: #252323;
+  height: 60px;
+}
+main, .content {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo {
+  float: left;
+  padding: 16px;
+  width: 70%;
+}
+.redes-sociais ul li {
+  margin-left: 28px;
+  display: inline-block;
+    list-style: none;
+  padding-top: 16px;
+}
+.redes-socias {
+  width: 25%;
+  float: right;
+}
+.header-2 {
+  background-color: white;
+  width: 980px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.menu-urls {
+  height: 80px;
+  border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+  display: inline-block;
+  color: #8b8b8b;
+  margin-left: 15px;
+  height: 50px;
+}
+.menu ul li:hover {
+  border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+  color: #00bac6;
+}
+.menu ul li a {
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.menu {
+  width: 70%;
+  float: left;
+}
+.busca {
+  text-align: center;
+  width: 30%;
+  float: right;
+}
+.busca input {
+  background-image: url("../img/busca.png");
+  background-repeat: no-repeat;
+  background-position: 96%;
+  padding: 15px;
+  width: 190px;
+  height: 36px;
+  margin-top: 10px;
+  border: 1px solid #d6d6d6;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative; 
+}
+
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  z-index: 9;
+  width: 25px;
+  height: 51px;
+  position: absolute;
+  top: 33%;
+  left: 15%;
+  background-color: transparent;
+  background-image: url("../img/seta\ E.png");
+}
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  z-index: 8;
+  width: 25px;
+  height: 51px;
+  position: absolute;
+  top: 33%;
+  right: 15%;
+  background-color: transparent;
+  background-image: url("../img/seta\ D.png");
+}
+
+.slider-principal{
+  height: 454px;
+}
+.slick-initialized {
+  overflow: hidden;
+}
+
+.slick-dots li button{
+  font-size: 0px;
+  border: 3px solid #ffffff;
+  width: 18px;
+  height: 17px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slick-dots{
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 48%;
+  top: 88%;
+
+}
+.slick-dots li{
+  display: inline-block;
+  padding-left: 10px;
+}
+li.slick-active button{
+  background-color: #00bac6;
+}
+.texto-destaque{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.texto-destaque strong{
+  color: #646464;
+}
+.texto-destaque h1{
+  color: #818181;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.texto-destaque p {
+  color: #9a9a9a;
+  font-size: 15px;
+}
+.col-3{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 18%;
+  float:left;
+  position: relative;
+  left: 267px;
+}
+.col-4{
+  text-align: center;
+  position: relative;
+  float: left;
+  left: 124px;
+  width: 100%;
+}
+.bloco-imagem img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.bloco-imagem {
+  height: 190px;
+  width: 300px;
+  border: 1px solid #c5c5c5; 
+  padding-bottom: 14px; 
+  padding-block-end: 131px;
+  margin-left: 22px;
+}
+.bloco-imagem b, p {
+  text-align: center;
+}
+.bloco-texto {
+  margin-top: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
+.bloco-texto h3{
+  color: #646464;
+  font-weight: normal;
+  text-align: center;
+}
+.bloco-texto b{
+  color: #646464;
+    text-align: center;
+}
+.bloco-texto p{
+  color: #646464;
+  font-weight: normal;
+  text-align: center;
+  font-size: 14px;
+}
+.bloco-imagens-texto {
+  background-color: #858585;
+
+}
+.bloco-imagens-texto:before {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 52px;
+  background: #ffffff;
+  background-image: url('../img/setinha.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bloco-imagens-texto {
+  background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 52px;
+  background: #ffffff;
+  background-image: url('../img/setinha.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bloco-imagens-texto:after {
+  width: 100%;
+  display: block;
+  content: '';
+  height: 70px;
+  background: #eeeeee;
+} 
+.col-5 {
+   width: 24%;
+  text-align: center;
+  float: left;
+  }
+.col-5 img{
+ cursor: pointer;
+ margin: 0 auto;
+ padding-top: 3em;
+ vertical-align: middle;
+}
+.col-5 img:hover{
+  margin-top: 10px!important;
+}
+.col-6{
+  padding-top: 16px;
+  display: inline-table;
+  width: 24%;
+  
+}
+.footer{
+  background-image:url('../img/fundocinza.png');
+  color: #c1c1c1;
+  font-family: 'PT Sans';
+  padding-bottom: 36px;
+}
+.footer h3, b{
+  text-align: left;
+  color: white;
+}
+.footer p{
+  text-align: left;
+  font-size: 12px;
+  
+}
+
+.footer-2{
+  background-image:url('../img/final.png');
+  color: #c1c1c1;
+  height: 88px;
+}
+.footer-2 p{
+  padding-top: 20px;
+  float: left;
+  font-family: 'PT Sans';
+}
+.clock{
+  font-size: 12px;
+  color: #a7a8a7;
+}
+.clock:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url(../img/clock.png);
+  background-repeat: no-repeat;
+  padding-left: 5px;
+}
+.col-6 b{
+  font-size: 18px;
+}
+.lugar:before,.email:before, .tel:before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+.lugar:before{
+  background-image: url(../img/local.png);
+}
+.email:before{
+  background-image: url(../img/email.png);
+}
+.tel:before{
+  background-image: url(../img/telefoneico.png);
+}
